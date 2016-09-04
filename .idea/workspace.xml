@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="499e7ce2-d1d1-4687-a03b-9eacf88cba4b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/mypack/Fibonacci.scala" afterPath="$PROJECT_DIR$/src/main/scala/mypack/Fibonacci.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/FibonacciTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/FibonacciTest.scala" />
     </list>
     <ignored path="FunProg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +46,8 @@
       <file leaf-file-name="Fibonacci.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mypack/Fibonacci.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+            <state relative-caret-position="240">
+              <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -55,8 +56,8 @@
       <file leaf-file-name="FibonacciTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/FibonacciTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="545">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -78,8 +79,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/test/scala/FibonacciTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mypack/Fibonacci.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/FibonacciTest.scala" />
       </list>
     </option>
   </component>
@@ -228,8 +229,8 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="ScalaTest.FibonacciTest.curry1">
-    <configuration default="false" name="FibonacciTest.isSorted2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.FibonacciTest.drop empty">
+    <configuration default="false" name="FibonacciTest.setHead" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funprog" />
       <setting name="path" value="FibonacciTest" />
@@ -238,13 +239,13 @@
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="isSorted2" />
+      <setting name="testName" value="setHead" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FibonacciTest.isSorted3" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="FibonacciTest.setHeadEmpty" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funprog" />
       <setting name="path" value="FibonacciTest" />
@@ -253,13 +254,13 @@
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="isSorted3" />
+      <setting name="testName" value="setHeadEmpty" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FibonacciTest.isSorted4" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="FibonacciTest.setHeadSingleElem" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funprog" />
       <setting name="path" value="FibonacciTest" />
@@ -268,13 +269,13 @@
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="isSorted4" />
+      <setting name="testName" value="setHeadSingleElem" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FibonacciTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="FibonacciTest.drop" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funprog" />
       <setting name="path" value="FibonacciTest" />
@@ -283,13 +284,13 @@
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
+      <setting name="testName" value="drop" />
+      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FibonacciTest.curry1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="FibonacciTest.drop empty" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="funprog" />
       <setting name="path" value="FibonacciTest" />
@@ -298,7 +299,7 @@
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="curry1" />
+      <setting name="testName" value="drop empty" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -584,19 +585,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.isSorted2" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.isSorted3" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.isSorted4" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.curry1" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.setHead" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.setHeadEmpty" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.setHeadSingleElem" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.drop" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.drop empty" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.curry1" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.isSorted4" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.isSorted3" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.isSorted2" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.drop empty" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.drop" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.setHeadSingleElem" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.setHeadEmpty" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.FibonacciTest.setHead" />
       </list>
     </recent_temporary>
   </component>
@@ -661,29 +662,29 @@
     <history-entry file="FibonacciTest_curry1 - 2016.09.04 at 11h 01m 26s.xml">
       <configuration name="FibonacciTest.curry1" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FibonacciTest_isSorted1 - 2016.08.25 at 17h 42m 55s.xml">
-      <configuration name="FibonacciTest.isSorted1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FibonacciTest_drop - 2016.09.04 at 14h 16m 09s.xml">
+      <configuration name="FibonacciTest.drop" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FibonacciTest_isSorted1 - 2016.08.25 at 17h 43m 28s.xml">
-      <configuration name="FibonacciTest.isSorted1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FibonacciTest_drop_empty - 2016.09.04 at 14h 16m 37s.xml">
+      <configuration name="FibonacciTest.drop empty" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FibonacciTest_isSorted1 - 2016.08.25 at 17h 43m 57s.xml">
-      <configuration name="FibonacciTest.isSorted1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FibonacciTest_drop_empty - 2016.09.04 at 14h 17m 16s.xml">
+      <configuration name="FibonacciTest.drop empty" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FibonacciTest_isSorted1 - 2016.08.25 at 17h 44m 07s.xml">
-      <configuration name="FibonacciTest.isSorted1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FibonacciTest_drop_empty - 2016.09.04 at 14h 20m 01s.xml">
+      <configuration name="FibonacciTest.drop empty" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FibonacciTest_isSorted2 - 2016.08.25 at 17h 44m 46s.xml">
-      <configuration name="FibonacciTest.isSorted2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FibonacciTest_setHead - 2016.09.04 at 14h 08m 50s.xml">
+      <configuration name="FibonacciTest.setHead" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FibonacciTest_isSorted3 - 2016.08.25 at 17h 45m 48s.xml">
-      <configuration name="FibonacciTest.isSorted3" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FibonacciTest_setHeadEmpty - 2016.09.04 at 14h 09m 17s.xml">
+      <configuration name="FibonacciTest.setHeadEmpty" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FibonacciTest_isSorted3 - 2016.08.25 at 17h 46m 04s.xml">
-      <configuration name="FibonacciTest.isSorted3" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FibonacciTest_setHeadSingleElem - 2016.09.04 at 14h 09m 47s.xml">
+      <configuration name="FibonacciTest.setHeadSingleElem" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FibonacciTest_isSorted4 - 2016.08.25 at 17h 46m 19s.xml">
-      <configuration name="FibonacciTest.isSorted4" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FibonacciTest_tail - 2016.09.04 at 14h 05m 36s.xml">
+      <configuration name="FibonacciTest.tail" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -807,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/FibonacciTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="545">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -817,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mypack/Fibonacci.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        <state relative-caret-position="240">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
           <folding />
         </state>
       </provider>

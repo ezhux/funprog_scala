@@ -44,11 +44,6 @@ object fibonacci {
 
   /**
     * Exercise 2.3
-    * @param f
-    * @tparam A
-    * @tparam B
-    * @tparam C
-    * @return
     */
   def curry[A,B,C] (f: (A, B) => C): A => (B => C) = {
     (a: A) => {
@@ -62,11 +57,6 @@ object fibonacci {
 
   /**
     * Exercise 2.4
-    * @param f
-    * @tparam A
-    * @tparam B
-    * @tparam C
-    * @return
     */
   def uncurry[A,B,C](f: A => B => C): (A, B) => C = {
     (a, b) => f(a)(b)
@@ -74,16 +64,43 @@ object fibonacci {
 
   /**
     * Exercise 2.5
-    * @param f
-    * @param g
-    * @tparam A
-    * @tparam B
-    * @tparam C
-    * @return
     */
   def compose[A,B,C](f: B => C, g: A => B): A => C = {
       a => f(g(a))
   }
 
+  /**
+    * Exercise 3.2
+    */
+  def tail[A](list: List[A]): List[A] = list match {
+    case Nil => Nil
+    case x :: Nil => Nil
+    case x :: xs => xs
+  }
+
+  /**
+    * Exercise 3.3
+    */
+  def setHead[A](l: List[A], a: A): List[A] = l match {
+    case Nil => List(a)
+    case x :: Nil => List(a)
+    case x :: xs => a :: xs
+  }
+
+  // 3.4
+  def drop[A](l: List[A], n: Int): List[A] = n match {
+    case x if (x > l.size) => sys.error("we don't have that many elements")
+    case 0 => l
+    case x => drop(l.tail, x - 1)
+  }
+
+  //3.5
+  def dropWhile[A](l: List[A], f: A => Boolean): List[A] = {
+    if (f(l.head)) {
+      dropWhile(l.tail, f)
+    }
+    else
+      l
+  }
 
 }
