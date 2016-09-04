@@ -21,7 +21,7 @@ object fibonacci {
   }
 
   /**
-    * Exercise 2.1
+    * Exercise 2.2
     * @param as
     * @param ordered
     * @tparam A
@@ -41,4 +41,20 @@ object fibonacci {
     }
     loop(1)
   }
+
+  /**
+    * Exercise 2.3
+    * @param f
+    * @tparam A
+    * @tparam B
+    * @tparam C
+    * @return
+    */
+  def curry[A,B,C] (f: (A, B) => C): A => (B => C) = {
+    (a: A) => {
+      (b: B) => f(a,b)
+    }
+  }
+
+  
 }

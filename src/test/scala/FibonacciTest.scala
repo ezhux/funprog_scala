@@ -1,5 +1,6 @@
 import org.scalatest.FunSuite
 import mypack.fibonacci
+import scala.math.pow
 /**
   * Created by tadassugintas on 2016-08-21.
   */
@@ -52,4 +53,6 @@ class FibonacciTest extends FunSuite {
     val a = Array(2,5,8,16)
     assert(fibonacci.isSorted(a, (x: Int, y: Int) => x * x == y) == false)
   }
+
+
 }
